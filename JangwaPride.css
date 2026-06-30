@@ -361,8 +361,16 @@ padding: 0 !important;
 display: none !important;
 }
 
-.s-chat-message_system span.s-chat-message_content {
-    color: #0d2608 !important; 
+/* --- Trying to fix Staff Chat showing up --- */
+#chatMessageList .s-chat-message.s-chat-message_system,
+.s-chat-message.s-chat-message_system {
+    background: #94e884 !important;
+    border: none !important;
+}
+
+#chatMessageList .s-chat-message.s-chat-message_system span.s-chat-message_content,
+.s-chat-message.s-chat-message_system span.s-chat-message_content {
+    color: #0d2608 !important;
 }
 
 div#lblCharacterCounter {
