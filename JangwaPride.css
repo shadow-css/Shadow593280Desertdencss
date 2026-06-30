@@ -361,6 +361,10 @@ padding: 0 !important;
 display: none !important;
 }
 
+.s-chat-message_system span.s-chat-message_content {
+    color: #0d2608 !important; 
+}
+
 div#lblCharacterCounter {
 color: #ffffff !important; }
 
